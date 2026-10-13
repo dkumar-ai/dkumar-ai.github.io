@@ -1,26 +1,37 @@
+```jsx
 import './About.css'
 
 const About = () => {
   const skills = [
     { icon: 'bx bxl-python', label: 'Python' },
+    { icon: 'bx bx-brain', label: 'Machine Learning' },
+    { icon: 'bx bx-network-chart', label: 'Deep Learning' },
+    { icon: 'bx bx-bot', label: 'Generative AI' },
+    { icon: 'bx bx-git-branch', label: 'Multi-Agent Systems' },
+    { icon: 'bx bx-search-alt', label: 'RAG Pipelines' },
+    { icon: 'bx bx-message-square-detail', label: 'Prompt Engineering' },
+    { icon: 'bx bx-check-shield', label: 'LLM Evaluation' },
+    { icon: 'bx bxs-data', label: 'Pinecone' },
+    { icon: 'bx bxs-data', label: 'Qdrant' },
+    { icon: 'bx bx-code-alt', label: 'FastAPI' },
+    { icon: 'bx bx-server', label: 'Flask & REST APIs' },
     { icon: 'bx bxl-tensorflow', label: 'TensorFlow' },
-    { icon: 'bx bxl-pytorch', label: 'PyTorch' },
+    { icon: 'bx bx-brain', label: 'PyTorch' },
+    { icon: 'bx bx-bar-chart-alt-2', label: 'Scikit-learn' },
+    { icon: 'bx bx-image', label: 'Computer Vision' },
+    { icon: 'bx bx-data', label: 'SQL' },
     { icon: 'bx bxl-docker', label: 'Docker' },
     { icon: 'bx bxl-git', label: 'Git' },
     { icon: 'bx bxl-github', label: 'GitHub' },
-    { icon: 'bx bxl-aws', label: 'AWS' },
-    { icon: 'bx bxl-google-cloud', label: 'GCP' },
-    { icon: 'bx bxs-data', label: 'Pandas' },
-    { icon: 'bx bx-brain', label: 'Scikit-learn' },
-    { icon: 'bx bxs-microchip', label: 'OpenCV' },
-    { icon: 'bx bxl-javascript', label: 'SQL' },
+    { icon: 'bx bxl-google-cloud', label: 'Google Cloud' },
+    { icon: 'bx bx-cloud', label: 'AWS & Azure' },
   ]
 
   const stats = [
-    { number: '7+', label: 'Projects Built' },
-    { number: '92%', label: 'Best Model Accuracy' },
-    { number: '5', label: 'Certifications' },
-    { number: '2+', label: 'Years Experience' },
+    { number: '12', label: 'Projects Listed' },
+    { number: '92%', label: 'Plant Disease Model Accuracy' },
+    { number: '2', label: 'Interview Engine Modules' },
+    { number: '2026', label: 'Graduation Year' },
   ]
 
   return (
@@ -30,26 +41,41 @@ const About = () => {
         <div className="section-divider"></div>
 
         <div className="about-grid">
-
           {/* Left — Bio */}
           <div className="about-bio">
             <p className="about-tag">// who I am</p>
+
             <h3 className="about-heading">
-              Turning data into<br />
+              Building reliable
+              <br />
               <span>intelligent systems</span>
             </h3>
+
             <p className="about-text">
-              I'm a final-year Computer Science student at Chandigarh University,
-              specializing in AI & ML. I build end-to-end deep learning pipelines,
-               computer vision systems, and predictive models that solve real problems
-              — from detecting plant diseases with 92% accuracy to predicting
-              heart failure risk in clinical settings.
+              I'm an AI Engineer and Computer Science graduate from
+              Chandigarh University, specializing in Artificial Intelligence
+              and Machine Learning. My work focuses on building agentic
+              LLM systems, retrieval-augmented generation (RAG) pipelines,
+              evaluation tools, and backend services that turn AI capabilities
+              into practical applications.
             </p>
+
             <p className="about-text">
-              My work spans healthcare AI, IoT automation, and multi-agent systems.
-              I'm driven by the challenge of making models that don't just perform
-              well on paper — but work reliably in the real world.
+              As an AI Developer Intern at ATGWorld Networks — Vidya AI,
+              I've worked on an AI-powered interview evaluation service,
+              structured LLM outputs, Pinecone integration, and modular
+              AI content-generation pipelines. My projects also span
+              adaptive interview intelligence with ProbeX_AI, multi-agent
+              orchestration, prompt evaluation, computer vision, and IoT
+              automation.
             </p>
+
+            <p className="about-text">
+              I focus on more than model performance: I care about reliable
+              outputs, grounded evidence, deterministic validation, and
+              systems that can be tested, maintained, and improved.
+            </p>
+
             <div className="about-stats">
               {stats.map((stat) => (
                 <div className="stat-item" key={stat.label}>
@@ -63,17 +89,20 @@ const About = () => {
           {/* Right — Skills */}
           <div className="about-skills">
             <p className="about-tag">// what I work with</p>
-            <h3 className="about-heading">Tech <span>Stack</span></h3>
+
+            <h3 className="about-heading">
+              Tech <span>Stack</span>
+            </h3>
+
             <div className="skills-grid">
               {skills.map((skill) => (
                 <div className="skill-card" key={skill.label}>
-                  <i className={skill.icon}></i>
+                  <i className={skill.icon} aria-hidden="true"></i>
                   <span>{skill.label}</span>
                 </div>
               ))}
             </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -81,3 +110,4 @@ const About = () => {
 }
 
 export default About
+```
