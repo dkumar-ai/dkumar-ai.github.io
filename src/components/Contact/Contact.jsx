@@ -39,8 +39,8 @@ const Contact = () => {
                 <i className="bx bx-envelope"></i>
                 <div>
                   <span className="contact-label">Email</span>
-                  <a href="mailto:deveshkumawat2304@gmail.com" className="contact-value">
-                    deveshkumawat2304@gmail.com
+                  <a href="mailto:devesh47ak@gmail.com" className="contact-value">
+                    devesh47ak@gmail.com
                   </a>
                 </div>
               </div>
@@ -49,8 +49,8 @@ const Contact = () => {
                 <i className="bx bxl-github"></i>
                 <div>
                   <span className="contact-label">GitHub</span>
-                  <a href="https://github.com/devesh2304" target="_blank" rel="noreferrer" className="contact-value">
-                    github.com/devesh2304
+                  <a href="https://github.com/dkumar-ai" target="_blank" rel="noreferrer" className="contact-value">
+                    github.com/dkumar-ai
                   </a>
                 </div>
               </div>
@@ -59,8 +59,8 @@ const Contact = () => {
                 <i className="bx bxl-linkedin"></i>
                 <div>
                   <span className="contact-label">LinkedIn</span>
-                  <a href="https://linkedin.com/in/devesh2304" target="_blank" rel="noreferrer" className="contact-value">
-                    linkedin.com/in/devesh2304
+                  <a href="https://www.linkedin.com/in/dkumar-ai" target="_blank" rel="noreferrer" className="contact-value">
+                    linkedin.com/in/dkumar-ai
                   </a>
                 </div>
               </div>
