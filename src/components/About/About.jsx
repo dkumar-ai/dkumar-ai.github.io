@@ -1,4 +1,4 @@
-```jsx
+
 import './About.css'
 
 const About = () => {
@@ -110,4 +110,4 @@ const About = () => {
 }
 
 export default About
-```
+
